@@ -410,6 +410,7 @@ export const KnowledgeCutOffDate: Record<string, string> = {
   "gpt-4-vision-preview": "2023-04",
   "o1-mini": "2023-10",
   "o1-preview": "2023-10",
+  "o3-mini": "2023-10",
   // After improvements,
   // it's now easier to add "KnowledgeCutOffDate" instead of stupid hardcoding it, as was done previously.
   "gemini-pro": "2023-12",
@@ -494,7 +495,9 @@ const googleModels = [
   "gemini-exp-1121",
   "gemini-exp-1206",
   "gemini-2.0-flash-exp",
+  "gemini-2.0-flash-thinking-exp",
   "gemini-2.0-flash-thinking-exp-1219",
+  "gemini-2.0-flash-thinking-exp-01-21",
 ];
 
 const anthropicModels = [
